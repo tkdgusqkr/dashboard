@@ -54,6 +54,7 @@
 									<listOptionValue builtIn="false" value="../Drivers/BSP/Components/Common"/>
 									<listOptionValue builtIn="false" value="../Drivers/BSP/Components/mt48lc4m32b2"/>
 									<listOptionValue builtIn="false" value="../Drivers/BSP/Components/rk043fn48h"/>
+									<listOptionValue builtIn="false" value="../Gas_Features/Gas_Sdram"/>
 									<listOptionValue builtIn="false" value="../Gas_Scheduler"/>
 									<listOptionValue builtIn="false" value="../Open_Src"/>
 									<listOptionValue builtIn="false" value="../Open_Src/lvgl"/>
@@ -86,6 +87,7 @@
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Common"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Core"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Gas_Features"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Gas_Scheduler"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="sourcePath" name="Open_Src"/>
 					</sourceEntries>

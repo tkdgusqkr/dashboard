@@ -5,15 +5,15 @@
  *      Author: tkdgusqkr
  */
 
-#ifndef GAS_SCHEDULER_H_
-#define GAS_SCHEDULER_H_
+#ifndef GAS_SCHEDULER_GAS_SCHEDULER_H_
+#define GAS_SCHEDULER_GAS_SCHEDULER_H_
 
 #ifdef __cplusplus
 extern "C" {
 #endif
 
 /* Includes ------------------------------------------------------------------*/
-
+#include "main.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "stdint.h"
@@ -75,4 +75,4 @@ void HAL_SYSTICK_Callback(void);
 extern "C" {
 #endif
 
-#endif /* GAS_SCHEDULER_H_ */
+#endif /* GAS_SCHEDULER_GAS_SCHEDULER_H_ */
