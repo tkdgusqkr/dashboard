@@ -2,7 +2,7 @@
  * gas_sdram.c
  *
  *  Created on: Dec 18, 2024
- *      Author: 82104
+ *      Author: tkdgusqkr
  */
 /* Includes ------------------------------------------------------------------*/
 
@@ -43,6 +43,14 @@
 /* USER CODE BEGIN 0 */
 void GAS_SDRAM_Init(void)
 {
+	Mt48lc4m32b2Init();
+
+}
+/* USER CODE END 0 */
+
+/* USER CODE BEGIN 1 */
+static void Mt48lc4m32b2Init(void)
+{
 	static MT48LC4M32B2_Context_t pRegMode;
 
 	/* External memory mode register configuration */
@@ -62,8 +70,4 @@ void GAS_SDRAM_Init(void)
 	}
 
 }
-/* USER CODE END 0 */
-
-/* USER CODE BEGIN 1 */
-
 /* USER CODE END 1 */

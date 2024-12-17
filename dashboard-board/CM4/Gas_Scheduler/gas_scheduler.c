@@ -9,6 +9,8 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <gas_scheduler.h>
+#include <gas_mdma.h>
+#include <gas_sdram.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -49,7 +51,8 @@ static void Task1s(void);
 /* USER CODE BEGIN 0 */
 void GAS_SCHEDULER_Init(void)
 {
-
+	GAS_MDMA_Init();
+	GAS_SDRAM_Init();
 }
 void GAS_SCHEDULER_Run(void)
 {
