@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include <lvgl.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -121,7 +121,7 @@ int main(void)
   MX_LTDC_Init();
   MX_DMA2D_Init();
   /* USER CODE BEGIN 2 */
-
+  lv_init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
