@@ -26,7 +26,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-#include <lvgl.h>
+#include <gas_scheduler.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -114,7 +114,7 @@ int main(void)
   MX_LTDC_Init();
   MX_DMA2D_Init();
   /* USER CODE BEGIN 2 */
-  lv_init();
+  GAS_SCHEDULER_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -124,6 +124,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	  GAS_SCHEDULER_Run();
   }
   /* USER CODE END 3 */
 }
