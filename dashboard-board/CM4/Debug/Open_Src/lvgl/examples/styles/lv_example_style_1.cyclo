@@ -1,0 +1,4 @@
+../Open_Src/lvgl/examples/styles/../../src/hal/../draw/../misc/../font/../misc/lv_area.h:277:26:lv_pct	2
+../Open_Src/lvgl/examples/styles/../../src/hal/../draw/../misc/lv_style.h:451:20:lv_style_set_pad_ver	1
+../Open_Src/lvgl/examples/styles/../../src/core/lv_disp.h:162:26:lv_scr_act	1
+../Open_Src/lvgl/examples/styles/lv_example_style_1.c:7:6:lv_example_style_1	1
