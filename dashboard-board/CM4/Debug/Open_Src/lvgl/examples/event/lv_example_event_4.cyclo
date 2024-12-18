@@ -1,7 +1,0 @@
-../Open_Src/lvgl/examples/event/../../src/misc/lv_math.h:49:45:lv_trigo_cos	1
-../Open_Src/lvgl/examples/event/../../src/core/lv_obj_pos.h:199:20:lv_obj_center	1
-../Open_Src/lvgl/examples/event/../../src/core/lv_obj_style.h:92:20:lv_obj_remove_style_all	1
-../Open_Src/lvgl/examples/event/../../src/core/lv_disp.h:162:26:lv_scr_act	1
-../Open_Src/lvgl/examples/event/lv_example_event_4.c:8:13:timer_cb	5
-../Open_Src/lvgl/examples/event/lv_example_event_4.c:27:13:event_cb	2
-../Open_Src/lvgl/examples/event/lv_example_event_4.c:51:6:lv_example_event_4	1
