@@ -1,0 +1,16 @@
+../Open_Src/lvgl/examples/widgets/bar/../../../src/misc/lv_anim.h:121:20:lv_anim_set_var	1
+../Open_Src/lvgl/examples/widgets/bar/../../../src/misc/lv_anim.h:133:20:lv_anim_set_exec_cb	1
+../Open_Src/lvgl/examples/widgets/bar/../../../src/misc/lv_anim.h:143:20:lv_anim_set_time	1
+../Open_Src/lvgl/examples/widgets/bar/../../../src/misc/lv_anim.h:164:20:lv_anim_set_values	1
+../Open_Src/lvgl/examples/widgets/bar/../../../src/misc/lv_anim.h:232:20:lv_anim_set_playback_time	1
+../Open_Src/lvgl/examples/widgets/bar/../../../src/misc/lv_anim.h:252:20:lv_anim_set_repeat_count	1
+../Open_Src/lvgl/examples/widgets/bar/../../../src/hal/../draw/../misc/../font/../misc/lv_area.h:123:26:lv_area_get_width	1
+../Open_Src/lvgl/examples/widgets/bar/../../../src/hal/../draw/../misc/../font/../misc/lv_area.h:133:26:lv_area_get_height	1
+../Open_Src/lvgl/examples/widgets/bar/../../../src/hal/../draw/../misc/lv_color.h:592:26:lv_color_make	1
+../Open_Src/lvgl/examples/widgets/bar/../../../src/hal/../draw/../misc/lv_color.h:693:26:lv_color_white	1
+../Open_Src/lvgl/examples/widgets/bar/../../../src/hal/../draw/../misc/lv_color.h:697:26:lv_color_black	1
+../Open_Src/lvgl/examples/widgets/bar/../../../src/core/lv_obj_pos.h:199:20:lv_obj_center	1
+../Open_Src/lvgl/examples/widgets/bar/../../../src/core/lv_disp.h:162:26:lv_scr_act	1
+../Open_Src/lvgl/examples/widgets/bar/lv_example_bar_6.c:4:13:set_value	1
+../Open_Src/lvgl/examples/widgets/bar/lv_example_bar_6.c:9:13:event_cb	3
+../Open_Src/lvgl/examples/widgets/bar/lv_example_bar_6.c:49:6:lv_example_bar_6	1
