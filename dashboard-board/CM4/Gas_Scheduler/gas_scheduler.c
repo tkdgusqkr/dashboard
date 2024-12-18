@@ -67,23 +67,23 @@ void GAS_SCHEDULER_Run(void)
 	if (scheduler_flag.flag_lms == true)
 	{
 		Task1ms();
-		scheduler_flag.flag_lms == false;
+		scheduler_flag.flag_lms = false;
 	}
 	if (scheduler_flag.flag_l0ms == true)
 	{
 		Task10ms();
-		scheduler_flag.flag_l0ms == false;
+		scheduler_flag.flag_l0ms = false;
 	}
 	if (scheduler_flag.flag_l00ms == true)
 	{
 		Task100ms();
-		scheduler_flag.flag_l00ms == false;
+		scheduler_flag.flag_l00ms = false;
 	}
 
 	if (scheduler_flag.flag_ls == true)
 	{
 		Task1s();
-		scheduler_flag.flag_ls == false;
+		scheduler_flag.flag_ls = false;
 	}
 
 }
@@ -124,7 +124,7 @@ static void Task1ms(void)
 }
 static void Task10ms(void)
 {
-
+	lv_task_handler();
 }
 static void Task100ms(void)
 {
