@@ -36,7 +36,7 @@
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN PFP */
-
+static void Mt48lc4m32b2Init(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/

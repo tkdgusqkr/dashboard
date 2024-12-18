@@ -27,6 +27,9 @@ Core/Src \
 Core/Startup \
 Drivers/BSP/Components/mt48lc4m32b2 \
 Drivers/STM32H7xx_HAL_Driver \
+Gas_Features/Gas_Mdma \
+Gas_Features/Gas_Sdram \
+Gas_Porting/Gas_Lvgl \
 Gas_Scheduler \
 Open_Src/lvgl/demos/benchmark/assets \
 Open_Src/lvgl/demos/benchmark \

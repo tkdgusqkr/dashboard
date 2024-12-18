@@ -9,8 +9,11 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <gas_scheduler.h>
+#include <lvgl.h>
 #include <gas_mdma.h>
 #include <gas_sdram.h>
+#include <gas_lvgl.h>
+#include <examples/lv_examples.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -51,8 +54,11 @@ static void Task1s(void);
 /* USER CODE BEGIN 0 */
 void GAS_SCHEDULER_Init(void)
 {
+	lv_init();
 	GAS_MDMA_Init();
 	GAS_SDRAM_Init();
+	GAS_LVGL_Init();
+	lv_example_get_started_1();
 }
 void GAS_SCHEDULER_Run(void)
 {
@@ -105,7 +111,7 @@ void HAL_SYSTICK_Callback(void)
 /* USER CODE BEGIN 1 */
 static void Background(void)
 {
-
+	lv_task_handler();
 }
 
 static void Task1ms(void)

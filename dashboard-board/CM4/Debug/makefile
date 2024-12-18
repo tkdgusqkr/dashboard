@@ -121,6 +121,9 @@ RM := rm -rf
 -include Open_Src/lvgl/demos/benchmark/assets/subdir.mk
 -include Open_Src/lvgl/demos/benchmark/subdir.mk
 -include Gas_Scheduler/subdir.mk
+-include Gas_Porting/Gas_Lvgl/subdir.mk
+-include Gas_Features/Gas_Sdram/subdir.mk
+-include Gas_Features/Gas_Mdma/subdir.mk
 -include Drivers/STM32H7xx_HAL_Driver/subdir.mk
 -include Drivers/BSP/Components/mt48lc4m32b2/subdir.mk
 -include Core/Startup/subdir.mk
