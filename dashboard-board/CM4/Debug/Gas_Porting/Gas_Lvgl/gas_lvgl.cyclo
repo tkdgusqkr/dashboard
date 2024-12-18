@@ -1,5 +1,0 @@
-../Open_Src/lvgl/src/hal/../draw/../misc/../font/../misc/lv_area.h:123:26:lv_area_get_width	1
-../Open_Src/lvgl/src/hal/../draw/../misc/../font/../misc/lv_area.h:133:26:lv_area_get_height	1
-../Gas_Porting/Gas_Lvgl/gas_lvgl.c:50:6:GAS_LVGL_Init	1
-../Gas_Porting/Gas_Lvgl/gas_lvgl.c:88:13:DispFlush	5
-../Gas_Porting/Gas_Lvgl/gas_lvgl.c:119:13:CopyImageToLcdFrameBuffer	4

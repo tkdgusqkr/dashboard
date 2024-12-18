@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;dashboard-board_CM4/Gas_Features/Gas_Mdma.c&apos; to &apos;Gas_Mdma&apos;" description="Rename resource &apos;Gas_Mdma.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Gas_Features/Gas_Mdma.c" name="Gas_Mdma" stamp="1734477466120" updateReferences="true"/>
-</session>
